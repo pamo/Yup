@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B8D4C8F196270E4004A85AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D4C8E196270E4004A85AD /* AppDelegate.swift */; };
+		9B8D4C91196270E4004A85AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D4C90196270E4004A85AD /* ViewController.swift */; };
+		9B8D4C94196270E4004A85AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D4C92196270E4004A85AD /* Main.storyboard */; };
+		9B8D4C96196270E4004A85AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D4C95196270E4004A85AD /* Images.xcassets */; };
+		9B8D4CA2196270E5004A85AD /* YupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D4CA1196270E5004A85AD /* YupTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B8D4C9C196270E5004A85AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B8D4C81196270E4004A85AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B8D4C88196270E4004A85AD;
+			remoteInfo = Yup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B8D4C89196270E4004A85AD /* Yup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8D4C8D196270E4004A85AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8D4C8E196270E4004A85AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B8D4C90196270E4004A85AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B8D4C93196270E4004A85AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B8D4C95196270E4004A85AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9B8D4C9B196270E5004A85AD /* YupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B8D4CA0196270E5004A85AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8D4CA1196270E5004A85AD /* YupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YupTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B8D4C86196270E4004A85AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8D4C98196270E4004A85AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B8D4C80196270E4004A85AD = {
+			isa = PBXGroup;
+			children = (
+				9B8D4C8B196270E4004A85AD /* Yup */,
+				9B8D4C9E196270E5004A85AD /* YupTests */,
+				9B8D4C8A196270E4004A85AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B8D4C8A196270E4004A85AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D4C89196270E4004A85AD /* Yup.app */,
+				9B8D4C9B196270E5004A85AD /* YupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B8D4C8B196270E4004A85AD /* Yup */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D4C8E196270E4004A85AD /* AppDelegate.swift */,
+				9B8D4C90196270E4004A85AD /* ViewController.swift */,
+				9B8D4C92196270E4004A85AD /* Main.storyboard */,
+				9B8D4C95196270E4004A85AD /* Images.xcassets */,
+				9B8D4C8C196270E4004A85AD /* Supporting Files */,
+			);
+			path = Yup;
+			sourceTree = "<group>";
+		};
+		9B8D4C8C196270E4004A85AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D4C8D196270E4004A85AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B8D4C9E196270E5004A85AD /* YupTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D4CA1196270E5004A85AD /* YupTests.swift */,
+				9B8D4C9F196270E5004A85AD /* Supporting Files */,
+			);
+			path = YupTests;
+			sourceTree = "<group>";
+		};
+		9B8D4C9F196270E5004A85AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D4CA0196270E5004A85AD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B8D4C88196270E4004A85AD /* Yup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8D4CA5196270E5004A85AD /* Build configuration list for PBXNativeTarget "Yup" */;
+			buildPhases = (
+				9B8D4C85196270E4004A85AD /* Sources */,
+				9B8D4C86196270E4004A85AD /* Frameworks */,
+				9B8D4C87196270E4004A85AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yup;
+			productName = Yup;
+			productReference = 9B8D4C89196270E4004A85AD /* Yup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B8D4C9A196270E4004A85AD /* YupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B8D4CA8196270E5004A85AD /* Build configuration list for PBXNativeTarget "YupTests" */;
+			buildPhases = (
+				9B8D4C97196270E4004A85AD /* Sources */,
+				9B8D4C98196270E4004A85AD /* Frameworks */,
+				9B8D4C99196270E4004A85AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B8D4C9D196270E5004A85AD /* PBXTargetDependency */,
+			);
+			name = YupTests;
+			productName = YupTests;
+			productReference = 9B8D4C9B196270E5004A85AD /* YupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B8D4C81196270E4004A85AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Pamela Ocampo";
+				TargetAttributes = {
+					9B8D4C88196270E4004A85AD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					9B8D4C9A196270E4004A85AD = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 9B8D4C88196270E4004A85AD;
+					};
+				};
+			};
+			buildConfigurationList = 9B8D4C84196270E4004A85AD /* Build configuration list for PBXProject "Yup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B8D4C80196270E4004A85AD;
+			productRefGroup = 9B8D4C8A196270E4004A85AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B8D4C88196270E4004A85AD /* Yup */,
+				9B8D4C9A196270E4004A85AD /* YupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B8D4C87196270E4004A85AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8D4C94196270E4004A85AD /* Main.storyboard in Resources */,
+				9B8D4C96196270E4004A85AD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8D4C99196270E4004A85AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B8D4C85196270E4004A85AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8D4C91196270E4004A85AD /* ViewController.swift in Sources */,
+				9B8D4C8F196270E4004A85AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B8D4C97196270E4004A85AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B8D4CA2196270E5004A85AD /* YupTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B8D4C9D196270E5004A85AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B8D4C88196270E4004A85AD /* Yup */;
+			targetProxy = 9B8D4C9C196270E5004A85AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B8D4C92196270E4004A85AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B8D4C93196270E4004A85AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B8D4CA3196270E5004A85AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B8D4CA4196270E5004A85AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B8D4CA6196270E5004A85AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Yup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B8D4CA7196270E5004A85AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Yup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B8D4CA9196270E5004A85AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yup.app/Yup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		9B8D4CAA196270E5004A85AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Yup.app/Yup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B8D4C84196270E4004A85AD /* Build configuration list for PBXProject "Yup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8D4CA3196270E5004A85AD /* Debug */,
+				9B8D4CA4196270E5004A85AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B8D4CA5196270E5004A85AD /* Build configuration list for PBXNativeTarget "Yup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8D4CA6196270E5004A85AD /* Debug */,
+				9B8D4CA7196270E5004A85AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9B8D4CA8196270E5004A85AD /* Build configuration list for PBXNativeTarget "YupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B8D4CA9196270E5004A85AD /* Debug */,
+				9B8D4CAA196270E5004A85AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B8D4C81196270E4004A85AD /* Project object */;
+}
