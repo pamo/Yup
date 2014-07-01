@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
                             
@@ -15,6 +14,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: NSDictionary?) -> Bool {
+        let keysPlist = NSBundle.mainBundle().pathForResource("Keys", ofType: "plist")
+        let keys = NSDictionary(contentsOfFile: keysPlist)
+
+        let parseApplicationId : String = keys.valueForKey("parseApplicationId") as NSString
+        let parseClientKey : String = keys.valueForKey("parseClientKey") as NSString
+
+        Parse.setApplicationId(parseApplicationId, clientKey: parseClientKey)
+        
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
         return true
     }
 

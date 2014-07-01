@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B462EFC196277E700B94A23 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B462EFB196277E700B94A23 /* Keys.plist */; };
+		9B462F0019627CDA00B94A23 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462EFD19627CB800B94A23 /* Parse.framework */; };
+		9B462F051962828100B94A23 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F041962828100B94A23 /* CFNetwork.framework */; };
+		9B462F071962829400B94A23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F061962829400B94A23 /* CoreGraphics.framework */; };
+		9B462F091962829C00B94A23 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F081962829C00B94A23 /* CoreLocation.framework */; };
+		9B462F0B196282AA00B94A23 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F0A196282AA00B94A23 /* libz.dylib */; };
+		9B462F0D196282B600B94A23 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F0C196282B600B94A23 /* MobileCoreServices.framework */; };
+		9B462F0F196282BC00B94A23 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F0E196282BC00B94A23 /* QuartzCore.framework */; };
+		9B462F11196282C400B94A23 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F10196282C400B94A23 /* Security.framework */; };
+		9B462F13196282D300B94A23 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F12196282D300B94A23 /* StoreKit.framework */; };
+		9B462F15196282D900B94A23 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F14196282D900B94A23 /* SystemConfiguration.framework */; };
 		9B8D4C8F196270E4004A85AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D4C8E196270E4004A85AD /* AppDelegate.swift */; };
 		9B8D4C91196270E4004A85AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D4C90196270E4004A85AD /* ViewController.swift */; };
 		9B8D4C94196270E4004A85AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D4C92196270E4004A85AD /* Main.storyboard */; };
@@ -25,6 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B462EFB196277E700B94A23 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		9B462EFD19627CB800B94A23 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Yup.xcodeproj/Parse.framework; sourceTree = "<group>"; };
+		9B462F0119627D6800B94A23 /* Yup-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yup-Bridging-Header.h"; sourceTree = "<group>"; };
+		9B462F041962828100B94A23 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9B462F061962829400B94A23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B462F081962829C00B94A23 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9B462F0A196282AA00B94A23 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9B462F0C196282B600B94A23 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9B462F0E196282BC00B94A23 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B462F10196282C400B94A23 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9B462F12196282D300B94A23 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9B462F14196282D900B94A23 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9B8D4C89196270E4004A85AD /* Yup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8D4C8D196270E4004A85AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B8D4C8E196270E4004A85AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +64,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B462F15196282D900B94A23 /* SystemConfiguration.framework in Frameworks */,
+				9B462F13196282D300B94A23 /* StoreKit.framework in Frameworks */,
+				9B462F11196282C400B94A23 /* Security.framework in Frameworks */,
+				9B462F0F196282BC00B94A23 /* QuartzCore.framework in Frameworks */,
+				9B462F0D196282B600B94A23 /* MobileCoreServices.framework in Frameworks */,
+				9B462F0B196282AA00B94A23 /* libz.dylib in Frameworks */,
+				9B462F091962829C00B94A23 /* CoreLocation.framework in Frameworks */,
+				9B462F071962829400B94A23 /* CoreGraphics.framework in Frameworks */,
+				9B462F051962828100B94A23 /* CFNetwork.framework in Frameworks */,
+				9B462F0019627CDA00B94A23 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,9 +87,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B462EFF19627CC600B94A23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B462F14196282D900B94A23 /* SystemConfiguration.framework */,
+				9B462F12196282D300B94A23 /* StoreKit.framework */,
+				9B462F10196282C400B94A23 /* Security.framework */,
+				9B462F0E196282BC00B94A23 /* QuartzCore.framework */,
+				9B462F0C196282B600B94A23 /* MobileCoreServices.framework */,
+				9B462F0A196282AA00B94A23 /* libz.dylib */,
+				9B462F081962829C00B94A23 /* CoreLocation.framework */,
+				9B462F061962829400B94A23 /* CoreGraphics.framework */,
+				9B462F041962828100B94A23 /* CFNetwork.framework */,
+				9B462EFD19627CB800B94A23 /* Parse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B8D4C80196270E4004A85AD = {
 			isa = PBXGroup;
 			children = (
+				9B462EFF19627CC600B94A23 /* Frameworks */,
 				9B8D4C8B196270E4004A85AD /* Yup */,
 				9B8D4C9E196270E5004A85AD /* YupTests */,
 				9B8D4C8A196270E4004A85AD /* Products */,
@@ -76,10 +127,12 @@
 			isa = PBXGroup;
 			children = (
 				9B8D4C8E196270E4004A85AD /* AppDelegate.swift */,
+				9B462EFB196277E700B94A23 /* Keys.plist */,
 				9B8D4C90196270E4004A85AD /* ViewController.swift */,
 				9B8D4C92196270E4004A85AD /* Main.storyboard */,
 				9B8D4C95196270E4004A85AD /* Images.xcassets */,
 				9B8D4C8C196270E4004A85AD /* Supporting Files */,
+				9B462F0119627D6800B94A23 /* Yup-Bridging-Header.h */,
 			);
 			path = Yup;
 			sourceTree = "<group>";
@@ -189,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B462EFC196277E700B94A23 /* Keys.plist in Resources */,
 				9B8D4C94196270E4004A85AD /* Main.storyboard in Resources */,
 				9B8D4C96196270E4004A85AD /* Images.xcassets in Resources */,
 			);
@@ -325,9 +379,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yup.xcodeproj",
+				);
 				INFOPLIST_FILE = Yup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yup/Yup-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -336,9 +397,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Yup.xcodeproj",
+				);
 				INFOPLIST_FILE = Yup/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yup/Yup-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -397,6 +464,7 @@
 				9B8D4CA7196270E5004A85AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B8D4CA8196270E5004A85AD /* Build configuration list for PBXNativeTarget "YupTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +473,7 @@
 				9B8D4CAA196270E5004A85AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
