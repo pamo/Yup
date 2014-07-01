@@ -58,3 +58,6 @@ DerivedData
 
 # CocoaPods
  Pods/
+
+# Yup specific
+Keys.plist
