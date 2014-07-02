@@ -20,9 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let parseApplicationId : String = keys.valueForKey("parseApplicationId") as NSString
         let parseClientKey : String = keys.valueForKey("parseClientKey") as NSString
 
+
         Parse.setApplicationId(parseApplicationId, clientKey: parseClientKey)
         
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+
+        self.window!.backgroundColor = UIColor.whiteColor()
+        self.window!.makeKeyAndVisible()
+        self.window!.rootViewController = LoginViewController()
+        
         return true
     }
 

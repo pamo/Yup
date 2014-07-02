@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B08B8991964598800B2D2C1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B08B8981964598800B2D2C1 /* Social.framework */; };
+		9B08B89B1964598F00B2D2C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B08B89A1964598F00B2D2C1 /* Foundation.framework */; };
+		9B08B89D19645B7000B2D2C1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B08B89C19645B7000B2D2C1 /* Accounts.framework */; };
+		9B08B89F19645C1400B2D2C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B08B89E19645C1400B2D2C1 /* LoginViewController.swift */; };
 		9B462EFC196277E700B94A23 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B462EFB196277E700B94A23 /* Keys.plist */; };
 		9B462F0019627CDA00B94A23 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462EFD19627CB800B94A23 /* Parse.framework */; };
 		9B462F051962828100B94A23 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F041962828100B94A23 /* CFNetwork.framework */; };
@@ -19,7 +23,6 @@
 		9B462F13196282D300B94A23 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F12196282D300B94A23 /* StoreKit.framework */; };
 		9B462F15196282D900B94A23 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B462F14196282D900B94A23 /* SystemConfiguration.framework */; };
 		9B8D4C8F196270E4004A85AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D4C8E196270E4004A85AD /* AppDelegate.swift */; };
-		9B8D4C91196270E4004A85AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D4C90196270E4004A85AD /* ViewController.swift */; };
 		9B8D4C94196270E4004A85AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D4C92196270E4004A85AD /* Main.storyboard */; };
 		9B8D4C96196270E4004A85AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D4C95196270E4004A85AD /* Images.xcassets */; };
 		9B8D4CA2196270E5004A85AD /* YupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D4CA1196270E5004A85AD /* YupTests.swift */; };
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B08B8981964598800B2D2C1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9B08B89A1964598F00B2D2C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B08B89C19645B7000B2D2C1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		9B08B89E19645C1400B2D2C1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9B462EFB196277E700B94A23 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
 		9B462EFD19627CB800B94A23 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Yup.xcodeproj/Parse.framework; sourceTree = "<group>"; };
 		9B462F0119627D6800B94A23 /* Yup-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Yup-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -51,7 +58,6 @@
 		9B8D4C89196270E4004A85AD /* Yup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8D4C8D196270E4004A85AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B8D4C8E196270E4004A85AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9B8D4C90196270E4004A85AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9B8D4C93196270E4004A85AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9B8D4C95196270E4004A85AD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9B8D4C9B196270E5004A85AD /* YupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B08B89D19645B7000B2D2C1 /* Accounts.framework in Frameworks */,
+				9B08B89B1964598F00B2D2C1 /* Foundation.framework in Frameworks */,
+				9B08B8991964598800B2D2C1 /* Social.framework in Frameworks */,
 				9B462F15196282D900B94A23 /* SystemConfiguration.framework in Frameworks */,
 				9B462F13196282D300B94A23 /* StoreKit.framework in Frameworks */,
 				9B462F11196282C400B94A23 /* Security.framework in Frameworks */,
@@ -90,6 +99,9 @@
 		9B462EFF19627CC600B94A23 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B08B89C19645B7000B2D2C1 /* Accounts.framework */,
+				9B08B89A1964598F00B2D2C1 /* Foundation.framework */,
+				9B08B8981964598800B2D2C1 /* Social.framework */,
 				9B462F14196282D900B94A23 /* SystemConfiguration.framework */,
 				9B462F12196282D300B94A23 /* StoreKit.framework */,
 				9B462F10196282C400B94A23 /* Security.framework */,
@@ -128,8 +140,8 @@
 			children = (
 				9B8D4C8E196270E4004A85AD /* AppDelegate.swift */,
 				9B462EFB196277E700B94A23 /* Keys.plist */,
-				9B8D4C90196270E4004A85AD /* ViewController.swift */,
 				9B8D4C92196270E4004A85AD /* Main.storyboard */,
+				9B08B89E19645C1400B2D2C1 /* LoginViewController.swift */,
 				9B8D4C95196270E4004A85AD /* Images.xcassets */,
 				9B8D4C8C196270E4004A85AD /* Supporting Files */,
 				9B462F0119627D6800B94A23 /* Yup-Bridging-Header.h */,
@@ -262,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B8D4C91196270E4004A85AD /* ViewController.swift in Sources */,
+				9B08B89F19645C1400B2D2C1 /* LoginViewController.swift in Sources */,
 				9B8D4C8F196270E4004A85AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
