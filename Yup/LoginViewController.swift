@@ -16,15 +16,21 @@ class LoginViewController: UIViewController, PFLogInViewControllerDelegate, PFSi
     override func viewDidLoad() {
         super.viewDidLoad()
         welcomeLabel = UILabel(frame: CGRectMake(20.0, 40.0, 280.0, 44.0))
-        self.view.addSubview(welcomeLabel)
         
-        logOutButton = UIButton(frame: CGRectMake(20.0, 100.0, 280.0, 44.0))
-        logOutButton!.setTitle("Log Out", forState: UIControlState.Normal)
-        logOutButton!.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
-        logOutButton!.setTitleColor(UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.5), forState: UIControlState.Highlighted)
-        logOutButton!.hidden = true
-        logOutButton!.addTarget(self, action: "logOut", forControlEvents: UIControlEvents.TouchUpInside)
+        self.logOutButton = createLogOutButton()
+        
+        self.view.addSubview(welcomeLabel)
         self.view.addSubview(logOutButton)
+    }
+    
+    func createLogOutButton() -> UIButton{
+        let logOutButton = UIButton(frame: CGRectMake(20.0, 100.0, 280.0, 44.0))
+        logOutButton.setTitle("Log Out", forState: UIControlState.Normal)
+        logOutButton.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
+        logOutButton.setTitleColor(UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.5), forState: UIControlState.Highlighted)
+        logOutButton.hidden = true
+        logOutButton.addTarget(self, action: "logOut", forControlEvents: UIControlEvents.TouchUpInside)
+        return logOutButton
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -56,7 +62,7 @@ class LoginViewController: UIViewController, PFLogInViewControllerDelegate, PFSi
         signUpViewController.delegate = self
         
         logInViewController.signUpController = signUpViewController
-        
+
         self.presentViewController(logInViewController, animated: true, completion: nil)
     }
     
@@ -70,7 +76,6 @@ class LoginViewController: UIViewController, PFLogInViewControllerDelegate, PFSi
         alert.message = "Make sure you fill out all of the information!"
         alert.addButtonWithTitle("OK")
         alert.show()
-        
         
         return false
     }
@@ -110,4 +115,3 @@ class LoginViewController: UIViewController, PFLogInViewControllerDelegate, PFSi
     }
 
 }
-
