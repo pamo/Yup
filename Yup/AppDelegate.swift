@@ -24,12 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.setApplicationId(parseApplicationId, clientKey: parseClientKey)
         
         PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
-
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-
-        self.window!.backgroundColor = UIColor.whiteColor()
-        self.window!.makeKeyAndVisible()
-        self.window!.rootViewController = LoginViewController()
         
         return true
     }
@@ -58,4 +52,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
