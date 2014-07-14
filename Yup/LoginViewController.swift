@@ -14,7 +14,6 @@ class LoginViewController : UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Login to Yup"
         usernameField!.delegate = self
         passwordField!.delegate = self
         
@@ -22,21 +21,27 @@ class LoginViewController : UIViewController, UITextFieldDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
     @IBAction func didTapLogin(sender: UIButton){
         let username = usernameField!.text
         let password = passwordField!.text
         PFUser.logInWithUsernameInBackground(username, password: password, block: {
             user, error in
             if (user) {
-                //self.navigationController.pushViewController(vc, animated: true)
+                self.performSegueWithIdentifier("loginToMain", sender:self)
                 println("You're in, yo!")
             } else {
                 //Something bad has ocurred
-                var errorString:NSString = error.userInfo.objectForKey("error") as NSString
+                var errorString:NSString = error.userInfo["error"] as NSString
                 var errorAlertView:UIAlertView = UIAlertView(title: "Error", message: errorString, delegate: nil, cancelButtonTitle: "OK")
                 errorAlertView.show()
             }
         })
+    }
+    
+    func textFieldShouldReturn(textField: UITextField!) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
 }
